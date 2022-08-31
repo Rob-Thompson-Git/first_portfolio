@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+#hero-section {
+    background-image: url(./images/ground.jpeg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 10em;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background: #13293d;
+    color: #fff;
+}
+
+#heading1 {
+    background-color: black;
+    padding: 5px;
+    flex: 2;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+#first-img {
+    width: 10%;
+    flex: 1;
+}
+
+button {
+    background-color: #13293d;
+    color: white;
+    width: 25%;
+    border: 1px solid black;
+}
+
+button:hover {
+    color: black
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+}
+
+h2 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-five {
+    flex: 4;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 70%;
+    border-left: 5px dotted black;
+    flex: 2;
+    display: flex;
+    padding-left: 50px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+}
+
+/* Tablets - header changes color (header will be red from 768px to 992px) */
+@media screen and (max-width: 992px) {
+    header {
+        background: #772014;
+    }
+
+     button {
+        background: #772014;
+    }
+
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+    header {
+        background: #772014;
+    }
+
+     button {
+        background: #772014;
+    }
+}
+
+/* Small smartphones - image placeholders change color
+  @media screen and (max-width: 576px) {
+    .sample-img {
+      background-color: #8ac4ff;
+    }
+  } */
