@@ -54,12 +54,47 @@ main {
     flex-direction: column;
 }
 
-section {
+section:not(.work-boxes) {
     display: flex;
     align-items: center;
     background-color: #fff;
     padding: 20px;
 }
+
+.work-boxes {
+    display: flex;
+    column-gap: 30px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+}
+
+.work-box {
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+}
+
+/* .box-one {
+    order: 1;
+}
+
+.box-two {
+    order: 2;
+}
+
+.box-three {
+    order: 3;
+}
+
+.box-four {
+    order: 4;
+}
+
+.box-five {
+    order: 5;
+} */
 
 h2 {
     width: 20%;
