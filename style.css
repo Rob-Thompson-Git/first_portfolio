@@ -2,13 +2,22 @@
     box-sizing: border-box;
 }
 
+.material-symbols-outlined {
+    vertical-align: top !important;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
 ul {
     position: absolute;
     right: 0;
 }
 
 a.nav-link {
-color: black !important;
+    color: black !important;
 }
 
 a.nav-link:hover {
@@ -35,8 +44,6 @@ body {
     font-family: Arial;
     margin: 0;
 }
-
-
 
 #first-img {
     width: 10%;
@@ -73,6 +80,8 @@ section {
     border-left: 5px dotted black;
 }
 
+
+
 .img_cont {
     width: 316px;
     height: 250px;
@@ -80,7 +89,7 @@ section {
 }
 
 .cont-one {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(./images/work.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/work.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,9 +97,9 @@ section {
     border-bottom: 1px solid black;
 }
 
-div.img_cont {
+a.project-title {
     color: white;
-    text-align: center;
+    cursor: pointer;
 }
 
 h2 {
@@ -118,18 +127,19 @@ a {
     color: black;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
     text-decoration: underline;
     cursor: pointer;
 }
 
 .material-symbols-outlined {
-vertical-align: bottom;  
+    vertical-align: bottom;
     font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
 }
 
 footer {
