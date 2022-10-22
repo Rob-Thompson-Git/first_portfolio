@@ -32,7 +32,7 @@ a.nav-link:hover {
 }
 
 .hero-photo {
-    background-image: url(./images/mountains.jpeg);
+    background-image: url(./images/mt.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,16 +85,31 @@ section {
 .img_cont {
     width: 316px;
     height: 250px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .cont-one {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/work.jpeg);
+    background-image: url(./images/brew.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    border-bottom: 1px solid black;
+}
+
+.img_cont2 {
+    width: 316px;
+    height: 250px;
+    /* border: 2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.cont-two {
+    background-image: url(./images/awaken.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 a.project-title {
